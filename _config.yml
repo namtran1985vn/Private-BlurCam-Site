@@ -1,0 +1,6 @@
+# Minimal Jekyll config for GitHub Pages (project site)
+baseurl: "/Private-BlurCam-Site"
+url: "https://namtran1985vn.github.io"
+title: Private BlurCam
+markdown: kramdown
+permalink: pretty
