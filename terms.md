@@ -58,4 +58,4 @@ We may update these Terms from time to time. Continued use of the App after chan
 
 For questions about these Terms, contact:
 
-privateblurcam@outlook.com
+private.blur.cam@outlook.com

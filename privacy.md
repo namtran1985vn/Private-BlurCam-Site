@@ -88,4 +88,4 @@ This privacy policy may be updated in the future. Any changes will be posted on 
 
 If you have any questions about this Privacy Policy, contact:
 
-privateblurcam@outlook.com
+private.blur.cam@outlook.com

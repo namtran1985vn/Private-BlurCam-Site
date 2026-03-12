@@ -39,6 +39,14 @@ From 480p (Free) up to 4K Ultra HD (Pro). Select the resolution that fits your n
 
 ---
 
+## Capture controls & workflow
+Switch between video and photo modes with the bottom toggle, pinch to zoom, tap anywhere to focus, and double-tap the preview to reset zoom to 1x. The top-right speaker icon mutes the built-in microphone before you start recording (it stays locked while you're already rolling), and the gallery thumbnail always opens the Photos app so you can review, share, or delete the last clip in a tap.
+
+## Control the look & export
+Use the live Saturation and Sharpness sliders to dial vividness or softness while you film, and enable Smooth Skin (Pro) for a subtle face-smoothing filter with an intensity slider. Strip metadata, enable Prevent Quality Loss for uploads, and burn in a custom watermark (up to roughly 30 characters) at the bottom-left of exported videos. Recordings auto-save to your Photos library by default, but you can flip the Auto-Save switch in Settings if you prefer to export each clip manually.
+
+---
+
 ## Privacy Features
 
 ### Works even in airplane mode
@@ -54,6 +62,18 @@ Remove all metadata: location, device info, timestamps. Make your videos complet
 
 ### Voice Protection (Pro)
 Change voice pitch to protect speaker identity while keeping words clear.
+
+### Remove metadata (Pro)
+Strip GPS, device, and camera info from exported files so nothing sensitive is hiding in the EXIF. All metadata edits happen locally before the clip leaves your device.
+
+### Prevent Quality Loss (Pro)
+Optimized encoding settings keep detail intact when you publish to Instagram, TikTok, or YouTube, so platform recompression doesn't reintroduce artifacts after the face blur is applied.
+
+### Smooth Skin (Pro)
+Apply a subtle, real-time beauty filter to the detected faces—use the slider to dial how soft you want the skin to appear while the blur stays in place.
+
+### Custom watermark (Pro)
+Burn your name, role, or handle (up to about 30 characters) into the lower-left corner of exported videos for easy attribution without needing a post-edit.
 
 ---
 
@@ -81,9 +101,10 @@ Change voice pitch to protect speaker identity while keeping words clear.
 | Recording resolution | 480p | Up to 4K |
 | Untraceable Mode | — | ✅ |
 | Voice Protection | — | ✅ |
+| Metadata removal | — | ✅ |
 | Prevent Quality Loss | — | ✅ |
-| Add Watermark | — | ✅ |
-| Boost Face Detection | — | ✅ |
+| Smooth Skin | — | ✅ |
+| Custom watermark | — | ✅ |
 
 Upgrade to Pro for full resolution and advanced privacy features.
 

@@ -34,4 +34,4 @@ Private BlurCam is an iOS camera app that uses on-device AI to:
 
 ## Contact
 
-For support or questions: privateblurcam@outlook.com
+For support or questions: private.blur.cam@outlook.com

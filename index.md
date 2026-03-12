@@ -25,6 +25,12 @@ Change voice pitch to make speech unrecognizable while keeping words understanda
 ### Multiple recording resolutions
 Choose from 480p to 4K resolution. Free users get 480p; upgrade to Pro for higher quality recordings.
 
+### Capture controls & workflow
+Switch between video and photo modes with the toggle at the bottom, pinch to zoom, tap to focus, and double-tap to reset zoom to 1x. A big mute button sits in the top overlay so you can silence the internal microphone before recording (it is locked while the camera is rolling), and the gallery thumbnail always opens your Photos library so you can review or share the latest clip.
+
+### Image & export controls
+Dial saturation (0.0 = grayscale to 2.0 = vivid) and sharpness (0.0 = soft to 2.0 = maximum detail) in real time. Enable Smooth Skin (Pro) for a subtle beauty filter, strip metadata and apply Prevent Quality Loss for social uploads, and add a custom watermark (up to ~30 characters) at the bottom-left of exported videos. Recordings are automatically saved to your Photos library by default but you can turn off auto-save in Settings if you prefer to export manually.
+
 ---
 
 ## Why Private BlurCam Is Different
@@ -53,10 +59,13 @@ Removes metadata like location, device info, timestamps, and camera data. Recomm
 Modifies voice pitch to make speakers harder to identify while keeping speech understandable. Perfect for interviews or sensitive conversations.
 
 ### Prevent Quality Loss for Social Posting
-Optimizes video encoding for social media uploads. Helps maintain detail when platforms recompress your video.
+Optimizes video encoding for social media uploads so your footage survives Reels, TikTok, or Loves. A Pro toggle keeps detail when platforms recompress your files.
 
 ### Add Watermark (Pro)
-Add your name or identifier to exported videos for attribution.
+Add your name, brand, or handle (up to about 30 characters) to exported videos with a watermark that stays in the bottom-left corner.
+
+### Smooth Skin (Pro)
+Applies a live smoothing effect to detected faces; Pro users can fine-tune the intensity with a slider so the blur stays natural but blemishes are softened.
 
 ---
 
@@ -86,12 +95,21 @@ It detects and blurs faces in real time while you record, removes metadata, and 
 No. We do not collect or store personal data or videos.
 
 **What's the difference between Free and Pro?**
-Free users get 480p recording with basic face blur. Pro users unlock up to 4K resolution, Untraceable Mode, Voice Protection, watermarks, and advanced features.
+Free users get 480p recording with basic face blur, while Pro unlocks up to 4K resolution, Smooth Skin, Untraceable Mode, Voice Protection, watermarking, and other advanced privacy toggles.
+
+**Can I mute the microphone before recording?**
+Yes. Tap the speaker toggle in the top overlay to silence the microphone while you prepare to record (the control is disabled during an active recording to keep you from suddenly cutting audio mid-take).
+
+**Where do my recordings go?**
+Recordings drop straight into your Photos library by default, which makes sharing or deleting them a tap away. If you prefer manual export, turn off Auto-Save in Settings and export or share each clip yourself.
+
+**How can I fine-tune the look?**
+Use the Saturation and Sharpness sliders in Settings or the Smooth Skin slider (Pro) to dial in exactly how vivid and smooth the camera output should be—everything happens live while you film.
 
 ---
 
 ## Contact
 
-**Email:** privateblurcam@outlook.com
+**Email:** private.blur.cam@outlook.com
 
 For support, feature questions, or feedback, we're happy to help.
