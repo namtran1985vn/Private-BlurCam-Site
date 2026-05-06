@@ -68,7 +68,8 @@ permalink: /
       <h1>Make polished content without giving away more than you choose.</h1>
       <p>Private BlurCam helps creators record promos, behind-the-scenes clips, collabs, previews, and private-channel media with automatic face blur, voice options, metadata controls, watermarking, and no cloud media processing.</p>
       <div class="pbc-actions">
-        <a class="pbc-button" href="{{ site.baseurl }}/marketing/">See creator use cases</a>
+        <a class="pbc-button" href="https://apps.apple.com/vn/app/private-blurcam/id6760446756">Available on App Store</a>
+        <a class="pbc-button secondary" href="{{ site.baseurl }}/marketing/">See creator use cases</a>
         <a class="pbc-button secondary" href="{{ site.baseurl }}/privacy/">Read privacy policy</a>
       </div>
     </div>
@@ -150,6 +151,9 @@ permalink: /
           <h3>How do I get help?</h3>
           <p>Email <a href="mailto:private.blur.cam@outlook.com">private.blur.cam@outlook.com</a> for support, privacy questions, or subscription help.</p>
         </article>
+      </div>
+      <div class="pbc-actions">
+        <a class="pbc-button" href="https://apps.apple.com/vn/app/private-blurcam/id6760446756">Available on App Store</a>
       </div>
     </div>
   </section>

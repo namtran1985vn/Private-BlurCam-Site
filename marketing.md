@@ -71,7 +71,8 @@ permalink: /marketing/
       <h1>The creator camera for identity-safe filming.</h1>
       <p>Record paid-channel previews, social teasers, collabs, behind-the-scenes clips, and faceless brand content with privacy protection applied before the file is saved.</p>
       <div class="pbc-actions">
-        <a class="pbc-button" href="{{ site.baseurl }}/">Support and FAQ</a>
+        <a class="pbc-button" href="https://apps.apple.com/vn/app/private-blurcam/id6760446756">Available on App Store</a>
+        <a class="pbc-button secondary" href="{{ site.baseurl }}/">Support and FAQ</a>
         <a class="pbc-button secondary" href="{{ site.baseurl }}/privacy/">Privacy details</a>
       </div>
     </div>
@@ -175,7 +176,8 @@ permalink: /marketing/
           <li>Anyone who wants local processing instead of uploading raw media to a blur service.</li>
         </ul>
         <div class="pbc-actions">
-          <a class="pbc-button" href="{{ site.baseurl }}/privacy/">Review privacy policy</a>
+          <a class="pbc-button" href="https://apps.apple.com/vn/app/private-blurcam/id6760446756">Available on App Store</a>
+          <a class="pbc-button secondary" style="color: var(--ink) !important; border-color: var(--line);" href="{{ site.baseurl }}/privacy/">Review privacy policy</a>
           <a class="pbc-button secondary" style="color: var(--ink) !important; border-color: var(--line);" href="mailto:private.blur.cam@outlook.com">Contact support</a>
         </div>
       </div>
