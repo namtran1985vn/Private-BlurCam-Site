@@ -35,6 +35,20 @@ permalink: /
 .pbc-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 26px; }
 .pbc-button { display: inline-flex; align-items: center; min-height: 48px; padding: 12px 18px; border-radius: 8px; text-decoration: none; background: #fff; color: var(--ink) !important; font-weight: 850; }
 .pbc-button.secondary { background: rgba(255,255,255,.14); color: #fff !important; border: 1px solid rgba(255,255,255,.36); }
+.pbc-button.store {
+  min-height: 56px;
+  padding: 14px 22px;
+  background: linear-gradient(135deg, #f7c948, #f59e0b);
+  color: #111817 !important;
+  border: 1px solid rgba(255,255,255,.72);
+  box-shadow: 0 14px 34px rgba(245, 158, 11, .34), 0 0 0 5px rgba(247, 201, 72, .18);
+  transform: translateY(-1px);
+}
+.pbc-button.store::before {
+  content: "★";
+  margin-right: 8px;
+  font-size: 1rem;
+}
 .pbc-band { margin: 0 calc(50% - 50vw); padding: clamp(38px, 6vw, 76px) clamp(20px, 5vw, 72px); }
 .pbc-band.soft { background: var(--soft); }
 .pbc-band.dark { background: var(--deep); color: #f7fbf9; }
@@ -68,7 +82,7 @@ permalink: /
       <h1>Make polished content without giving away more than you choose.</h1>
       <p>Private BlurCam helps creators record promos, behind-the-scenes clips, collabs, previews, and private-channel media with automatic face blur, voice options, metadata controls, watermarking, and no cloud media processing.</p>
       <div class="pbc-actions">
-        <a class="pbc-button" href="https://apps.apple.com/vn/app/private-blurcam/id6760446756">Available on App Store</a>
+        <a class="pbc-button store" href="https://apps.apple.com/vn/app/private-blurcam/id6760446756">Available on App Store</a>
         <a class="pbc-button secondary" href="{{ site.baseurl }}/marketing/">See creator use cases</a>
         <a class="pbc-button secondary" href="{{ site.baseurl }}/privacy/">Read privacy policy</a>
       </div>
@@ -153,7 +167,7 @@ permalink: /
         </article>
       </div>
       <div class="pbc-actions">
-        <a class="pbc-button" href="https://apps.apple.com/vn/app/private-blurcam/id6760446756">Available on App Store</a>
+        <a class="pbc-button store" href="https://apps.apple.com/vn/app/private-blurcam/id6760446756">Available on App Store</a>
       </div>
     </div>
   </section>
