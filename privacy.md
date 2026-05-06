@@ -7,24 +7,23 @@ permalink: /privacy/
 
 **Last updated: March 2026**
 
-Private BlurCam respects your privacy. This app is designed to protect privacy in videos using on-device AI while keeping your data completely private.
+Private BlurCam respects your privacy. The app is designed to protect privacy in photos and videos using on-device processing for camera capture, face detection, blur rendering, metadata removal, and voice protection.
 
 ## On-Device Video Processing
 
 All video processing—including face detection, face blur, metadata stripping, and voice pitch modification—is performed locally on your device using Apple's Vision framework and Metal technology.
 
-**Your videos never leave your device.** Private BlurCam does not upload, store, or transmit videos to any server.
+**Your camera media is processed on your device.** Private BlurCam does not upload your photos or videos to a server for AI processing.
 
 ## Data Collection
 
-Private BlurCam does not collect, store, or share any personal data.
+Private BlurCam does not collect, store, or sell your photos, videos, face data, voice recordings, health information, diet logs, or personal notes.
 
 The app does NOT collect:
 
 - Videos or photos
 - Personal information
-- Device identifiers
-- Usage analytics
+- Health or diet information
 - Location data
 - Face data or biometric information
 - Voice recordings
@@ -38,23 +37,20 @@ Private BlurCam uses Apple's on-device Vision framework to:
 
 No face data, biometric information, or video content is collected, stored, or transmitted.
 
-## Third-Party Services
+## Third-Party Services and App Events
 
-Private BlurCam does not use third-party analytics, advertising SDKs, or tracking technologies.
+App Store purchases and subscription management are handled by Apple. The app may also include third-party app event or advertising attribution technology, such as Meta/Facebook App Events, to measure installs, app opens, and subscription purchase events for marketing performance.
 
-We do not integrate with:
-- Analytics platforms
-- Advertising networks
-- Cloud processing services
-- Data collection services
+These services are not used to upload or process your photos, videos, face data, voice recordings, health information, or diet logs. Any third-party SDK use must be reflected in the App Store privacy nutrition labels and governed by the third party's privacy terms.
 
 ## Internet Usage
 
 Private BlurCam can function completely offline. An internet connection is not required for recording or processing.
 
-An internet connection is only used for:
+An internet connection may be used for:
 - App Store subscription validation (handled by Apple)
-- Optional crash reporting (if explicitly enabled)
+- App install, app open, or purchase attribution events if marketing attribution is enabled
+- Optional crash reporting if explicitly enabled in a future version
 
 ## Subscription and Payments
 
