@@ -64,6 +64,12 @@ permalink: /
 .pbc-band.dark .pbc-card p, .pbc-band.dark .pbc-card li { color: rgba(247,251,249,.82); }
 .pbc-stat { font-size: clamp(2rem, 4vw, 3.5rem); line-height: 1; font-weight: 900; color: var(--mint); }
 .pbc-photo { width: 100%; min-height: 360px; border-radius: 8px; object-fit: cover; border: 1px solid var(--line); }
+.pbc-shot-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; margin-top: 22px; }
+.pbc-shot { overflow: hidden; background: #fff; border: 1px solid var(--line); border-radius: 8px; }
+.pbc-shot img { display: block; width: 100%; aspect-ratio: 9 / 16; object-fit: cover; object-position: top center; }
+.pbc-shot div { padding: 16px; }
+.pbc-shot h3 { margin: 0 0 6px; font-size: 1.02rem; }
+.pbc-shot p { margin: 0; color: var(--muted); font-size: .95rem; }
 .pbc-feature-list { display: grid; gap: 12px; margin-top: 18px; }
 .pbc-feature { display: grid; grid-template-columns: 36px 1fr; gap: 12px; align-items: start; }
 .pbc-icon { display: grid; place-items: center; width: 36px; height: 36px; border-radius: 8px; background: #dff1e7; color: var(--mint); font-weight: 900; }
@@ -71,6 +77,7 @@ permalink: /
 @media (max-width: 780px) {
   .pbc-hero { min-height: 74vh; padding: 28px 20px; }
   .pbc-grid.two, .pbc-grid.three { grid-template-columns: 1fr; }
+  .pbc-shot-grid { grid-template-columns: 1fr; }
   .pbc-photo { min-height: 250px; }
 }
 </style>
@@ -80,11 +87,41 @@ permalink: /
     <div class="pbc-wrap">
       <div class="pbc-kicker">Private camera for pseudonymous creators</div>
       <h1>Make polished content without giving away more than you choose.</h1>
-      <p>Private BlurCam helps creators record promos, behind-the-scenes clips, collabs, previews, and private-channel media with automatic face blur, voice options, metadata controls, watermarking, and no cloud media processing.</p>
+      <p>Private BlurCam helps creators record previews, collabs, behind-the-scenes clips, and private-channel media with faces hidden, offline processing, 4K export, voice protection, metadata removal, watermarking, and social-ready quality controls.</p>
       <div class="pbc-actions">
         <a class="pbc-button store" href="https://apps.apple.com/vn/app/private-blurcam/id6760446756">Available on App Store</a>
         <a class="pbc-button secondary" href="{{ site.baseurl }}/marketing/">See creator use cases</a>
         <a class="pbc-button secondary" href="{{ site.baseurl }}/privacy/">Read privacy policy</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="pbc-band">
+    <div class="pbc-wrap">
+      <div class="pbc-eyebrow">App screenshots</div>
+      <h2>See the privacy workflow before you film.</h2>
+      <div class="pbc-shot-grid">
+        <article class="pbc-shot">
+          <img src="{{ site.baseurl }}/assets/screenshots/faces-stay-hidden.jpg" alt="Private BlurCam screenshot showing faces stay hidden while recording">
+          <div>
+            <h3>Capture videos. Faces stay hidden.</h3>
+            <p>Record groups, shared rooms, and background people with automatic face blur applied to the saved clip.</p>
+          </div>
+        </article>
+        <article class="pbc-shot">
+          <img src="{{ site.baseurl }}/assets/screenshots/private-by-design.jpg" alt="Private BlurCam screenshot showing processed on your device">
+          <div>
+            <h3>Private by design</h3>
+            <p>On-device processing helps avoid uploading raw creator media to a cloud blur service.</p>
+          </div>
+        </article>
+        <article class="pbc-shot">
+          <img src="{{ site.baseurl }}/assets/screenshots/4k-export.jpg" alt="Private BlurCam screenshot showing 4K export and video quality selector">
+          <div>
+            <h3>Ultra-sharp 4K export</h3>
+            <p>Pro resolution options support cleaner previews, promo edits, and higher-quality private-channel posts.</p>
+          </div>
+        </article>
       </div>
     </div>
   </section>
