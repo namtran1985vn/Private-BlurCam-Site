@@ -64,6 +64,8 @@ permalink: /
 .pbc-band.dark .pbc-card p, .pbc-band.dark .pbc-card li { color: rgba(247,251,249,.82); }
 .pbc-stat { font-size: clamp(2rem, 4vw, 3.5rem); line-height: 1; font-weight: 900; color: var(--mint); }
 .pbc-photo { width: 100%; min-height: 360px; border-radius: 8px; object-fit: cover; border: 1px solid var(--line); }
+.pbc-demo-intro { display: grid; grid-template-columns: minmax(0, .95fr) minmax(280px, .72fr); gap: clamp(22px, 5vw, 56px); align-items: center; }
+.pbc-demo-image { display: block; width: 100%; max-height: 820px; object-fit: contain; border-radius: 8px; border: 1px solid rgba(255,255,255,.16); box-shadow: 0 24px 70px rgba(0,0,0,.38); background: #090817; }
 .pbc-shot-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; margin-top: 22px; }
 .pbc-shot { overflow: hidden; background: #fff; border: 1px solid var(--line); border-radius: 8px; }
 .pbc-shot img { display: block; width: 100%; aspect-ratio: 9 / 16; object-fit: cover; object-position: top center; }
@@ -77,6 +79,7 @@ permalink: /
 @media (max-width: 780px) {
   .pbc-hero { min-height: 74vh; padding: 28px 20px; }
   .pbc-grid.two, .pbc-grid.three { grid-template-columns: 1fr; }
+  .pbc-demo-intro { grid-template-columns: 1fr; }
   .pbc-shot-grid { grid-template-columns: 1fr; }
   .pbc-photo { min-height: 250px; }
 }
@@ -93,6 +96,22 @@ permalink: /
         <a class="pbc-button secondary" href="{{ site.baseurl }}/marketing/">See creator use cases</a>
         <a class="pbc-button secondary" href="{{ site.baseurl }}/privacy/">Read privacy policy</a>
       </div>
+    </div>
+  </section>
+
+  <section class="pbc-band dark">
+    <div class="pbc-wrap pbc-demo-intro">
+      <div>
+        <div class="pbc-eyebrow">Demo introduction</div>
+        <h2>Real-time face blurring with zero original videos saved.</h2>
+        <p>Private BlurCam is built so protected frames are what reach the saved file. For creators, that means collaborators, background people, and accidental faces stay hidden by default while the workflow remains fast enough for real production.</p>
+        <div class="pbc-feature-list">
+          <div class="pbc-feature"><div class="pbc-icon">✓</div><div><strong>Faces blur while recording.</strong><br>The creator sees privacy protection live instead of waiting for a post-edit step.</div></div>
+          <div class="pbc-feature"><div class="pbc-icon">✓</div><div><strong>No unblurred saved copy.</strong><br>The app's save receipt confirms no unblurred video was created or saved.</div></div>
+          <div class="pbc-feature"><div class="pbc-icon">✓</div><div><strong>Collaborators stay private.</strong><br>Useful for shoots, parties, studios, venues, and shared rooms where not every face should be visible.</div></div>
+        </div>
+      </div>
+      <img class="pbc-demo-image" src="{{ site.baseurl }}/assets/screenshots/zero-originals-demo.png" alt="Private BlurCam demo showing real-time face blurring with zero originals stored">
     </div>
   </section>
 
