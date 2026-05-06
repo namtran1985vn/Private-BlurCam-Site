@@ -64,8 +64,18 @@ permalink: /
 .pbc-band.dark .pbc-card p, .pbc-band.dark .pbc-card li { color: rgba(247,251,249,.82); }
 .pbc-stat { font-size: clamp(2rem, 4vw, 3.5rem); line-height: 1; font-weight: 900; color: var(--mint); }
 .pbc-photo { width: 100%; min-height: 360px; border-radius: 8px; object-fit: cover; border: 1px solid var(--line); }
-.pbc-demo-intro { display: grid; grid-template-columns: minmax(0, .95fr) minmax(280px, .72fr); gap: clamp(22px, 5vw, 56px); align-items: center; }
-.pbc-demo-image { display: block; width: 100%; max-height: 820px; object-fit: contain; border-radius: 8px; border: 1px solid rgba(255,255,255,.16); box-shadow: 0 24px 70px rgba(0,0,0,.38); background: #090817; }
+.pbc-demo-band { background: radial-gradient(circle at 72% 18%, rgba(122, 84, 255, .26), transparent 34%), #111817; }
+.pbc-demo-intro { display: grid; grid-template-columns: minmax(0, 1fr) minmax(300px, 420px); gap: clamp(28px, 6vw, 72px); align-items: center; }
+.pbc-demo-copy { max-width: 680px; }
+.pbc-demo-copy h2 { margin: 10px 0 14px; padding: 0; border: 0; font-size: clamp(2rem, 4vw, 3.55rem); line-height: 1.03; letter-spacing: 0; }
+.pbc-demo-copy p { max-width: 620px; color: rgba(247,251,249,.82); font-size: 1.06rem; }
+.pbc-proof-list { display: grid; gap: 10px; margin-top: 22px; }
+.pbc-proof { display: grid; grid-template-columns: 42px 1fr; gap: 14px; align-items: start; padding: 14px; border: 1px solid rgba(255,255,255,.14); border-radius: 8px; background: rgba(255,255,255,.06); }
+.pbc-proof .pbc-icon { background: #dff1e7; color: var(--mint); }
+.pbc-proof strong { display: block; color: #fff; margin-bottom: 2px; }
+.pbc-proof span { color: rgba(247,251,249,.76); }
+.pbc-demo-frame { justify-self: center; width: min(100%, 390px); padding: 10px; border-radius: 12px; background: linear-gradient(180deg, rgba(255,255,255,.14), rgba(255,255,255,.04)); box-shadow: 0 24px 70px rgba(0,0,0,.42); }
+.pbc-demo-image { display: block; width: 100%; max-height: 690px; object-fit: cover; object-position: top center; border-radius: 8px; background: #090817; }
 .pbc-shot-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; margin-top: 22px; }
 .pbc-shot { overflow: hidden; background: #fff; border: 1px solid var(--line); border-radius: 8px; }
 .pbc-shot img { display: block; width: 100%; aspect-ratio: 9 / 16; object-fit: cover; object-position: top center; }
@@ -80,6 +90,8 @@ permalink: /
   .pbc-hero { min-height: 74vh; padding: 28px 20px; }
   .pbc-grid.two, .pbc-grid.three { grid-template-columns: 1fr; }
   .pbc-demo-intro { grid-template-columns: 1fr; }
+  .pbc-demo-frame { width: min(100%, 360px); }
+  .pbc-demo-image { max-height: 640px; }
   .pbc-shot-grid { grid-template-columns: 1fr; }
   .pbc-photo { min-height: 250px; }
 }
@@ -99,19 +111,21 @@ permalink: /
     </div>
   </section>
 
-  <section class="pbc-band dark">
+  <section class="pbc-band dark pbc-demo-band">
     <div class="pbc-wrap pbc-demo-intro">
-      <div>
+      <div class="pbc-demo-copy">
         <div class="pbc-eyebrow">Demo introduction</div>
         <h2>Real-time face blurring with zero original videos saved.</h2>
         <p>Private BlurCam is built so protected frames are what reach the saved file. For creators, that means collaborators, background people, and accidental faces stay hidden by default while the workflow remains fast enough for real production.</p>
-        <div class="pbc-feature-list">
-          <div class="pbc-feature"><div class="pbc-icon">✓</div><div><strong>Faces blur while recording.</strong><br>The creator sees privacy protection live instead of waiting for a post-edit step.</div></div>
-          <div class="pbc-feature"><div class="pbc-icon">✓</div><div><strong>No unblurred saved copy.</strong><br>The app's save receipt confirms no unblurred video was created or saved.</div></div>
-          <div class="pbc-feature"><div class="pbc-icon">✓</div><div><strong>Collaborators stay private.</strong><br>Useful for shoots, parties, studios, venues, and shared rooms where not every face should be visible.</div></div>
+        <div class="pbc-proof-list">
+          <div class="pbc-proof"><div class="pbc-icon">✓</div><div><strong>Faces blur while recording</strong><span>Privacy protection is visible live, before a clip becomes a saved file.</span></div></div>
+          <div class="pbc-proof"><div class="pbc-icon">✓</div><div><strong>No unblurred saved copy</strong><span>The app's save receipt confirms no unblurred video was created or saved.</span></div></div>
+          <div class="pbc-proof"><div class="pbc-icon">✓</div><div><strong>Collaborators stay private</strong><span>Useful for shoots, parties, studios, venues, and shared rooms.</span></div></div>
         </div>
       </div>
-      <img class="pbc-demo-image" src="{{ site.baseurl }}/assets/screenshots/zero-originals-demo.png" alt="Private BlurCam demo showing real-time face blurring with zero originals stored">
+      <figure class="pbc-demo-frame">
+        <img class="pbc-demo-image" src="{{ site.baseurl }}/assets/screenshots/zero-originals-demo.jpg" alt="Private BlurCam demo showing real-time face blurring with zero originals stored">
+      </figure>
     </div>
   </section>
 
