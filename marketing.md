@@ -154,6 +154,54 @@ permalink: /marketing/
     </div>
   </section>
 
+  <section class="pbc-band">
+    <div class="pbc-wrap">
+      <div class="pbc-eyebrow">Important features</div>
+      <h2>The feature set creators actually need before posting.</h2>
+      <div class="pbc-grid three">
+        <article class="pbc-card">
+          <h3>Automatic face privacy</h3>
+          <p>Always-on face blur helps protect your real-world identity, collaborators, clients, friends, and bystanders before the media is saved.</p>
+        </article>
+        <article class="pbc-card">
+          <h3>No raw-media upload</h3>
+          <p>Camera processing is designed to run on-device, so you do not need to send unprotected source clips to a cloud blur tool.</p>
+        </article>
+        <article class="pbc-card">
+          <h3>Metadata hygiene</h3>
+          <p>Pro metadata removal reduces hidden clues such as location, device, timestamp, and camera information before a clip leaves your phone.</p>
+        </article>
+        <article class="pbc-card">
+          <h3>Voice masking</h3>
+          <p>Voice Protection helps separate creator persona from real-world voice identity, especially for narration, room audio, and short previews.</p>
+        </article>
+        <article class="pbc-card">
+          <h3>Brand watermark</h3>
+          <p>Burn a creator name, brand, or handle into saved videos so preview clips retain attribution after sharing or reposting.</p>
+        </article>
+        <article class="pbc-card">
+          <h3>Social-ready quality</h3>
+          <p>Use Full HD, 2K, 4K, sharpness, saturation, and Prevent Quality Loss to keep creator clips cleaner through platform recompression.</p>
+        </article>
+        <article class="pbc-card">
+          <h3>Photo and video modes</h3>
+          <p>Switch between quick protected photos and longer recorded clips without changing apps or rebuilding the privacy workflow.</p>
+        </article>
+        <article class="pbc-card">
+          <h3>Smooth Skin</h3>
+          <p>Optional Pro beauty pass helps creator media look more polished while keeping the core identity-protection workflow intact.</p>
+        </article>
+        <article class="pbc-card">
+          <h3>Protected-save receipt</h3>
+          <p>The app shows which protections were applied after saving, giving creators a final confidence check before publishing or sending.</p>
+        </article>
+      </div>
+      <div class="pbc-actions">
+        <a class="pbc-button store" href="https://apps.apple.com/vn/app/private-blurcam/id6760446756">Available on App Store</a>
+      </div>
+    </div>
+  </section>
+
   <section class="pbc-band soft">
     <div class="pbc-wrap">
       <div class="pbc-eyebrow">Free vs Pro</div>

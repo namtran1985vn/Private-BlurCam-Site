@@ -144,6 +144,39 @@ permalink: /
     </div>
   </section>
 
+  <section class="pbc-band">
+    <div class="pbc-wrap">
+      <div class="pbc-eyebrow">Creator feature checklist</div>
+      <h2>Everything that helps keep creator work controlled.</h2>
+      <div class="pbc-grid three">
+        <article class="pbc-card">
+          <h3>Real-time face blur</h3>
+          <p>Faces are blurred while filming, so collaborators, guests, mirrors, crowds, and background people are less likely to appear clearly in the saved file.</p>
+        </article>
+        <article class="pbc-card">
+          <h3>Metadata removal</h3>
+          <p>Pro exports can strip location and device details that creators often forget are hidden inside media files.</p>
+        </article>
+        <article class="pbc-card">
+          <h3>Voice protection</h3>
+          <p>Mask narration or background voices when the clip needs personality without exposing a real-world voice identity.</p>
+        </article>
+        <article class="pbc-card">
+          <h3>Watermarking</h3>
+          <p>Add a creator name, brand, or handle to saved videos so previews and reposted clips still carry attribution.</p>
+        </article>
+        <article class="pbc-card">
+          <h3>High-quality export</h3>
+          <p>Pro unlocks Full HD, 2K, 4K, and a social quality option for sharper previews, promo clips, and private-channel posts.</p>
+        </article>
+        <article class="pbc-card">
+          <h3>Privacy receipt</h3>
+          <p>After saving, the app confirms which protections were active, including face blur, metadata removal, voice protection, and watermarking.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
   <section class="pbc-band soft">
     <div class="pbc-wrap">
       <div class="pbc-eyebrow">Support</div>
