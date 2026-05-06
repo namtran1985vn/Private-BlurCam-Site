@@ -17,13 +17,13 @@ All video processing—including face detection, face blur, metadata stripping, 
 
 ## Data Collection
 
-Private BlurCam does not collect, store, or sell your photos, videos, face data, voice recordings, health information, diet logs, or personal notes.
+Private BlurCam does not collect, store, or sell your photos, videos, face data, voice recordings, creator media, or personal notes.
 
 The app does NOT collect:
 
 - Videos or photos
 - Personal information
-- Health or diet information
+- Creator media or private notes
 - Location data
 - Face data or biometric information
 - Voice recordings
@@ -41,7 +41,7 @@ No face data, biometric information, or video content is collected, stored, or t
 
 App Store purchases and subscription management are handled by Apple. The app may also include third-party app event or advertising attribution technology, such as Meta/Facebook App Events, to measure installs, app opens, and subscription purchase events for marketing performance.
 
-These services are not used to upload or process your photos, videos, face data, voice recordings, health information, or diet logs. Any third-party SDK use must be reflected in the App Store privacy nutrition labels and governed by the third party's privacy terms.
+These services are not used to upload or process your photos, videos, face data, voice recordings, creator media, or private notes. Any third-party SDK use must be reflected in the App Store privacy nutrition labels and governed by the third party's privacy terms.
 
 ## Internet Usage
 

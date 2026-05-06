@@ -14,7 +14,7 @@ Complete privacy policy explaining on-device processing, data collection practic
 Terms of Service for using the app.
 
 ### 📢 [Marketing](https://namtran1985vn.github.io/Private-BlurCam-Site/marketing/)
-Marketing page with health and diet use cases, research-backed positioning, photos, and free vs pro comparison.
+Marketing page with creator privacy use cases, research-backed positioning, photos, and free vs pro comparison.
 
 ## About Private BlurCam
 
